@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13DEF7E15C0D7BF00BCC91E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DEF7D15C0D7BF00BCC91E /* UIKit.framework */; };
+		F13DEF8015C0D7BF00BCC91E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DEF7F15C0D7BF00BCC91E /* Foundation.framework */; };
+		F13DEF8215C0D7BF00BCC91E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13DEF8115C0D7BF00BCC91E /* CoreGraphics.framework */; };
+		F13DEF8815C0D7BF00BCC91E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F13DEF8615C0D7BF00BCC91E /* InfoPlist.strings */; };
+		F13DEF8A15C0D7BF00BCC91E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DEF8915C0D7BF00BCC91E /* main.m */; };
+		F13DEF8E15C0D7BF00BCC91E /* SystemTimeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DEF8D15C0D7BF00BCC91E /* SystemTimeAppDelegate.m */; };
+		F13DEF9115C0D7BF00BCC91E /* SystemTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DEF9015C0D7BF00BCC91E /* SystemTimeViewController.m */; };
+		F13DEF9415C0D7BF00BCC91E /* SystemTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F13DEF9215C0D7BF00BCC91E /* SystemTimeViewController.xib */; };
+		F13DEF9C15C0DB7B00BCC91E /* NSDateClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DEF9B15C0DB7B00BCC91E /* NSDateClass.m */; };
+		F13DEFAB15C12A6C00BCC91E /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F13DEFAA15C12A6B00BCC91E /* Readme.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F13DEF7915C0D7BF00BCC91E /* NSDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13DEF7D15C0D7BF00BCC91E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F13DEF7F15C0D7BF00BCC91E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F13DEF8115C0D7BF00BCC91E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F13DEF8515C0D7BF00BCC91E /* NSDate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDate-Info.plist"; sourceTree = "<group>"; };
+		F13DEF8715C0D7BF00BCC91E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F13DEF8915C0D7BF00BCC91E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F13DEF8B15C0D7BF00BCC91E /* NSDate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate-Prefix.pch"; sourceTree = "<group>"; };
+		F13DEF8C15C0D7BF00BCC91E /* SystemTimeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemTimeAppDelegate.h; sourceTree = "<group>"; };
+		F13DEF8D15C0D7BF00BCC91E /* SystemTimeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemTimeAppDelegate.m; sourceTree = "<group>"; };
+		F13DEF8F15C0D7BF00BCC91E /* SystemTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemTimeViewController.h; sourceTree = "<group>"; };
+		F13DEF9015C0D7BF00BCC91E /* SystemTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemTimeViewController.m; sourceTree = "<group>"; };
+		F13DEF9315C0D7BF00BCC91E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SystemTimeViewController.xib; sourceTree = "<group>"; };
+		F13DEF9A15C0DB7B00BCC91E /* NSDateClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateClass.h; sourceTree = "<group>"; };
+		F13DEF9B15C0DB7B00BCC91E /* NSDateClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateClass.m; sourceTree = "<group>"; };
+		F13DEFAA15C12A6B00BCC91E /* Readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13DEF7615C0D7BF00BCC91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13DEF7E15C0D7BF00BCC91E /* UIKit.framework in Frameworks */,
+				F13DEF8015C0D7BF00BCC91E /* Foundation.framework in Frameworks */,
+				F13DEF8215C0D7BF00BCC91E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13DEF6E15C0D7BF00BCC91E = {
+			isa = PBXGroup;
+			children = (
+				F13DEF8315C0D7BF00BCC91E /* NSDate */,
+				F13DEF7C15C0D7BF00BCC91E /* Frameworks */,
+				F13DEF7A15C0D7BF00BCC91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F13DEF7A15C0D7BF00BCC91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13DEF7915C0D7BF00BCC91E /* NSDate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13DEF7C15C0D7BF00BCC91E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13DEF7D15C0D7BF00BCC91E /* UIKit.framework */,
+				F13DEF7F15C0D7BF00BCC91E /* Foundation.framework */,
+				F13DEF8115C0D7BF00BCC91E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13DEF8315C0D7BF00BCC91E /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				F13DEF8C15C0D7BF00BCC91E /* SystemTimeAppDelegate.h */,
+				F13DEF8D15C0D7BF00BCC91E /* SystemTimeAppDelegate.m */,
+				F13DEF8F15C0D7BF00BCC91E /* SystemTimeViewController.h */,
+				F13DEF9015C0D7BF00BCC91E /* SystemTimeViewController.m */,
+				F13DEF9215C0D7BF00BCC91E /* SystemTimeViewController.xib */,
+				F13DEF9A15C0DB7B00BCC91E /* NSDateClass.h */,
+				F13DEF9B15C0DB7B00BCC91E /* NSDateClass.m */,
+				F13DEFAA15C12A6B00BCC91E /* Readme.rtf */,
+				F13DEF8415C0D7BF00BCC91E /* Supporting Files */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		F13DEF8415C0D7BF00BCC91E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F13DEF8515C0D7BF00BCC91E /* NSDate-Info.plist */,
+				F13DEF8615C0D7BF00BCC91E /* InfoPlist.strings */,
+				F13DEF8915C0D7BF00BCC91E /* main.m */,
+				F13DEF8B15C0D7BF00BCC91E /* NSDate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13DEF7815C0D7BF00BCC91E /* NSDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13DEF9715C0D7BF00BCC91E /* Build configuration list for PBXNativeTarget "NSDate" */;
+			buildPhases = (
+				F13DEF7515C0D7BF00BCC91E /* Sources */,
+				F13DEF7615C0D7BF00BCC91E /* Frameworks */,
+				F13DEF7715C0D7BF00BCC91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDate;
+			productName = NSDate;
+			productReference = F13DEF7915C0D7BF00BCC91E /* NSDate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13DEF7015C0D7BF00BCC91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "ST Electronics (Info-Software Systems) Pte Ltd";
+			};
+			buildConfigurationList = F13DEF7315C0D7BF00BCC91E /* Build configuration list for PBXProject "NSDate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F13DEF6E15C0D7BF00BCC91E;
+			productRefGroup = F13DEF7A15C0D7BF00BCC91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13DEF7815C0D7BF00BCC91E /* NSDate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13DEF7715C0D7BF00BCC91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13DEF8815C0D7BF00BCC91E /* InfoPlist.strings in Resources */,
+				F13DEF9415C0D7BF00BCC91E /* SystemTimeViewController.xib in Resources */,
+				F13DEFAB15C12A6C00BCC91E /* Readme.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13DEF7515C0D7BF00BCC91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13DEF8A15C0D7BF00BCC91E /* main.m in Sources */,
+				F13DEF8E15C0D7BF00BCC91E /* SystemTimeAppDelegate.m in Sources */,
+				F13DEF9115C0D7BF00BCC91E /* SystemTimeViewController.m in Sources */,
+				F13DEF9C15C0DB7B00BCC91E /* NSDateClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13DEF8615C0D7BF00BCC91E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13DEF8715C0D7BF00BCC91E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F13DEF9215C0D7BF00BCC91E /* SystemTimeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13DEF9315C0D7BF00BCC91E /* en */,
+			);
+			name = SystemTimeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13DEF9515C0D7BF00BCC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F13DEF9615C0D7BF00BCC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13DEF9815C0D7BF00BCC91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate/NSDate-Prefix.pch";
+				INFOPLIST_FILE = "NSDate/NSDate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F13DEF9915C0D7BF00BCC91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate/NSDate-Prefix.pch";
+				INFOPLIST_FILE = "NSDate/NSDate-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13DEF7315C0D7BF00BCC91E /* Build configuration list for PBXProject "NSDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13DEF9515C0D7BF00BCC91E /* Debug */,
+				F13DEF9615C0D7BF00BCC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13DEF9715C0D7BF00BCC91E /* Build configuration list for PBXNativeTarget "NSDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13DEF9815C0D7BF00BCC91E /* Debug */,
+				F13DEF9915C0D7BF00BCC91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13DEF7015C0D7BF00BCC91E /* Project object */;
+}
